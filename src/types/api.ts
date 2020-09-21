@@ -74,9 +74,9 @@ export type SectionAgendaProps = {
 }
 
 export type PricingBoxProps = {
-  totalPrice: string
-  numberInstallments: string
-  priceInstallment: string
+  totalPrice: number
+  numberInstallments: number
+  priceInstallment: number
   benefits: string
   button: {
     label: string
